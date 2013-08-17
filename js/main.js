@@ -59,7 +59,7 @@
         jQuery('.flexslider.fadeFlex').flexslider({
             animation: 'fade',
             animationLoop: false,
-            slideshow: false,
+            slideshow: true,
             controlNav: false,               //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
             directionNav: true,
 	        smoothHeight: true
@@ -105,7 +105,7 @@
 	        animation: "slide",
 	        controlNav: false,
 	        directionNav: false,
-	        animationLoop: false,
+	        animationLoop: true,
 	        slideshow: false,
 	        itemWidth: 320,
 	        itemMargin: 0,

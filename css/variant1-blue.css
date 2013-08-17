@@ -1,146 +1,146 @@
 /* standard components */
 
 a:hover, a:focus {
-  color:#00a5df;
+  color:#0082BC;
 }
 
-.flickr_badge > div a:hover{ border: 1px solid #00a5df; }
+.flickr_badge > div a:hover{ border: 1px solid #0082BC; }
 
 .navbar-static-top .navbar-inner{
-	background: #00a5df;
+	background: #0082BC;
 }
 
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus,
 .dropdown-submenu:hover > a{
-	color: #00a5df;
+	color: #0082BC;
 }
 
 .dropdown-menu .active > a,
 .dropdown-menu .active > a:hover{
-	color: #00a5df;
+	color: #0082BC;
 }
 
 .dropdown-submenu:hover > a:after{
-	border-left-color: #00a5df;
+	border-left-color: #0082BC;
 }
 
 .highlightBox{
-	border-left: 6px solid #00a5df;
+	border-left: 6px solid #0082BC;
 }
 
 .recentPostBox .medium a{
-	color: #00a5df !important;
+	color: #0082BC !important;
 }
 .blockTwitter{
-	background: #00a5df;
+	background: #0082BC;
 }
 
 .blockTwitter:after{
-	color: #00a5df;
+	color: #0082BC;
 }
 
 .contactBox a{
-	color: #00a5df;
+	color: #0082BC;
 }
 
 .contactMap .gmap-marker i:before{
-	color: #00a5df;
+	color: #0082BC;
 }
 .contactInfoBox{
-	background: #00a5df;
+	background: #0082BC;
 }
 .btn-primary{
-	background: #00a5df;
+	background: #0082BC;
 }
 
 .btn-primary:hover{
-	background: #00a5df;
+	background: #0082BC;
 }
 
 .btn-link:hover{
-	color: #00a5df;
+	color: #0082BC;
 }
 .tab-content.version2{
-	background: #00a5df;
+	background: #0082BC;
 }
 
 .nav-tabs.version2 > li > a:hover{
-	background-color: #00a5df;
+	background-color: #0082BC;
 }
 
 .nav-tabs.version2 > .active > a,
 .nav-tabs.version2 > .active > a:hover{
-	background-color: #00a5df;
+	background-color: #0082BC;
 }
 
 .pretty-table table th{
-	background: #00a5df;
+	background: #0082BC;
 }
 
 .priceBox .pricePlan{
-	color: #00a5df;
+	color: #0082BC;
 }
 
 .priceBox .emphasis{
-	color: #00a5df;
+	color: #0082BC;
 }
 
 .priceBox.spec .pricePlan{
-	background: #00a5df;
+	background: #0082BC;
 }
 
 .priceBox.version2 .pricePlan{
-	background: #00a5df;
+	background: #0082BC;
 }
 
 .priceBox.version2.spec{
-	background: #00a5df;
+	background: #0082BC;
 }
 
 .priceBox.version2.spec .emphasis-2 btn{
-	color: #00a5df;
+	color: #0082BC;
 }
 
 .progress .bar{
-	background: #00a5df;
+	background: #0082BC;
 }
 
 ul.filterPortfolio li.active .btn,
 ul.filterPortfolio li .btn:hover{
-	background: #00a5df;
+	background: #0082BC;
 }
 
 blockquote .fontello i:before{
-	color: #00a5df;
+	color: #0082BC;
 }
 
 .sectionFaq .accordion .accordion-inner p:before{
-	color: #00a5df;
+	color: #0082BC;
 }
 
 .faqMenu .active a{
-	border-left-color: #00a5df;
-	color: #00a5df;
+	border-left-color: #0082BC;
+	color: #0082BC;
 }
 
 .metaData a{
-	color: #00a5df;
+	color: #0082BC;
 }
 
 .promoBox{
-	background: #00a5df;
+	background: #0082BC;
 }
 
 ul.commentList .oneComment .metaIcon{
-	background: #00a5df;
+	background: #0082BC;
 }
 
 #toTop:hover{
-	background: #00a5df;
+	background: #0082BC;
 }
 .box-mainslider .box-click {
-	background: #00a5df;
+	background: #0082BC;
 }
 
 /* / standard components */
@@ -157,7 +157,7 @@ body.boxed #boxedWrapper,
 }
 
 .dropdown-menu {
-	background: #00a5df;
+	background: #0082BC;
 }
 
 .dropdown-menu li > a {
