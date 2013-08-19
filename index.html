@@ -65,7 +65,7 @@
     </div>
 	
 	<section id="home">
-        <div class="flexslider mainslider ">
+        <div class="flexslider mainslider hidden-phone">
           <ul class="slides">
             <li>
                 <div style="background-image: url(images/s2.jpg);">
@@ -99,7 +99,7 @@
         </div>
         <!--  flexslider mainslider -->
 
-        <div class="bgnavmainslider">
+        <div class="bgnavmainslider hidden-phone">
             <div class="container">
                 <div class="flexslider navmainslider">
                     <ul class="slides">
@@ -220,7 +220,7 @@
 <!-- / row-fluid -->
 
 
-<div class="row-fluid">
+<div class="row-fluid hidden-phone">
     
 
     <div class="span12">
@@ -323,13 +323,7 @@
        </div>
    </div>
 
-<section id="contacto">
 
-<div class="lineBox">
-            <div class="inner">
-                <a href="#" class="btn btn-primary">Contacto</a>
-            </div>
-        </div>
 <div class="container">
 
     <!-- ***************************** -->
@@ -381,43 +375,59 @@
 
 </div>
 <!-- / contactMap -->
+<section id="contacto">
 
+<div class="lineBox">
+            <div class="inner">
+                <a href="#" class="btn btn-primary">Contacto</a>
+            </div>
+        </div>
 
     <div class="row-fluid">
         <div class="span8">
             <div class="stylishForm">
-                <br><br>
 
                 <h3 class="big">CONTACTANOS</h3>
                 <br><br>
 
-                <form action="form/send.php" method="POST" class="contactForm">
+                <form action="" method="POST" class="contactForm" id="contacto" name="contacto">
                     <fieldset>
                         <div class="row-fluid">
-                            <div class="span6">
+                            <div class="span4">
                                 <div class="nameIcon">
-                                    <input name="name" required type="text" class="span12" placeholder=" TU NOMBRE">
+                                    <input name="nombre" required type="text" class="span12" placeholder=" TU NOMBRE">
                                 </div>
                             </div>
-                            <div class="span6">
+                            <div class="span4">
                                 <div class="mailIcon">
                                     <input name="email" required type="text" class="span12" placeholder="TU EMAIL">
+                                </div>
+                            </div>
+                            <div class="span4">
+                                <div class="nameIcon">
+                                    <input name="telefono" required type="text" class="span12" placeholder=" TU TELEFONO">
                                 </div>
                             </div>
                         </div>
                         <div class="row-fluid">
                             <div class="span12">
                                 <div class="msgIcon">
-                                    <textarea name="message" email required class="span12" placeholder="TU MENSAJE"></textarea>
+                                    <textarea name="mensaje" email required class="span12" placeholder="TU MENSAJE"></textarea>
                                 </div>
                             </div>
                         </div>
                         <div class="row-fluid">
                             <div class="span12">
                                 <div class="sendIcon">
-                                    <input type="submit" class="btn btn-primary" value="ENVIAR">
+                                    <a id="submit3" href="#" class="btn btn-icon right btn-inverse">
+                              Contactar
+                                <span class="entypo right-open-mini"><i></i></span>
+                            </a>
                                 </div>
-                            </div>
+                            </div><br>
+                            <br>
+                            <br>
+                            <div id="success3"></div>
                         </div>
 
 
@@ -481,7 +491,7 @@
 
             </div>
             <div class="span4">
-                <h4 class="medium">Latest Tweets</h4>
+                <h4 class="medium">Twitts</h4>
 
                 <div class="twitterBox">
                     <p>
@@ -499,7 +509,7 @@
 
             </div>
             <div class="span3">
-                <h4 class="medium">Testimonials</h4>
+                <h4 class="medium">Experiencias</h4>
 
                 <!-- *************************************************************************** -->
                 <!-- Fade Flex Slider ********************************************************** -->
@@ -509,22 +519,22 @@
                         <li>
                         <blockquote>
                             <p>
-                                Praesent faucibus magna eu massa posuere vitae adipiscing magna mattis. Donec
+                                Excelente servicio, rapido y eficiente.
                             </p>
                             <span class="author">
-                                Sam Cisinger <br>
-                                <strong>ABC Co</strong>
+                                Claudia Gonzalez <br>
+                                <strong>&nbsp;</strong>
                             </span>
                         </blockquote>
                         </li>
                         <li>
                         <blockquote>
                             <p>
-                                Praesent nec lectus nec felis aliquet condimentum id non velit. Praesent faucibus magna eu massa posuere vitae adipiscing magna mattis. Donec
+                                100% recomendado, buen servicio, justo lo que necesitaba en el momento indicado
                             </p>
                             <span class="author">
-                                John Doe <br>
-                                <strong>INVIA Inc.</strong>
+                                Patricia Hormazaval <br>
+                                <strong>&nbsp;</strong>
                             </span>
                         </blockquote>
                         </li>

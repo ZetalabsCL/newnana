@@ -33,7 +33,7 @@ $(document).ready(function(){
 
 $('#submit3').click(function(){
      $.post("contacto.php", $("#contacto").serialize(),  function(response) {
-     $('#contacto')[0].reset();
+     //$('#contacto')[0].reset();
      $('#success3').html(response);
 
     });
