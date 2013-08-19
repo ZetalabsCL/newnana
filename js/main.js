@@ -1,4 +1,11 @@
 
+/*
+    Jquery Placeholder Inicializacion
+ */
+
+$('input, textarea').placeholder();
+
+
 
     jQuery.noConflict();
 
