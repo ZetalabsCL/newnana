@@ -7,6 +7,11 @@
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
+
+.logo {
+  width: 30%;
+  height: 30%;
+}
 .clearfix {
   *zoom: 1;
 }
@@ -10476,6 +10481,12 @@ ul.commentList .oneComment:hover .metaIcon {
   height: 100%;
 }
 @media only screen and (max-device-width: 800px),only screen and (device-width: 1024px) and (device-height: 600px),only screen and (width: 1280px) and (orientation: landscape),only screen and (device-width: 800px),only screen and (max-width: 767px) {
+  
+    .logo {
+  width:30%; height:30%;
+}
+
+
   .videoFrameContainer {
     padding-top: 0;
   }
@@ -10544,6 +10555,11 @@ ul.commentList .oneComment:hover .metaIcon {
 }
 /* boxed layout */
 @media (max-width: 1020px) {
+
+  .logo {
+  width:30%; height:30%;
+}
+
   body.boxed #boxedWrapper {
     width: auto;
     margin-left: auto;
@@ -10551,6 +10567,11 @@ ul.commentList .oneComment:hover .metaIcon {
   }
 }
 @media (max-width: 979px) {
+
+  .logo {
+  width:30%; height:30%;
+}
+
   .navbar .nav > li > a {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -10648,6 +10669,11 @@ ul.commentList .oneComment:hover .metaIcon {
   }
 }
 @media (max-width: 767px) {
+
+    .logo {
+  width:30%; height:30%;
+}
+
   body {
     padding: 0;
   }
@@ -10695,6 +10721,10 @@ ul.commentList .oneComment:hover .metaIcon {
   }
 }
 @media (max-width: 480px) {
+  .logo {
+  width:30%; height:30%;
+}
+
   ul.commentList li li {
     margin-left: 35px;
   }
