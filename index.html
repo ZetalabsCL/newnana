@@ -32,28 +32,17 @@
 
             <div class="nav-collapse">
                 <ul class="nav pull-left">
-                    <li class="active dropdown">
-                        <a href="index.html" class="dropdown-toggle">HOME</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="index.html">Home Slider 1</a></li>
-                            <li><a href="invia-home-II.html">Home Slider 2</a></li>
-                            <li><a href="invia-home-boxed.html">Home Boxed</a></li>
-                            <li><a href="invia-horizontal-menu.html">Horizontal Submenu</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="invia-aboutus.html" class="dropdown-toggle">NOSOTROS</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="invia-aboutus.html">About</a></li>
-                            <li><a href="invia-aboutus2.html">About II</a></li>
-                            <li><a href="invia-elements-404.html">404</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                    <a href="invia-site-elements.html" class="dropdown-toggle">SERVICIOS</a>
+                    <li>
+                        <a href="#home" class="dropdown-toggle">HOME</a>
                     </li>
                     <li>
-                        <a href="invia-contact.html">CONTACTO</a>
+                    	<a href="#nosotros" class="dropdown-toggle">NOSOTROS</a>
+                    </li>
+                    <li>
+                    <a href="#servicios" class="dropdown-toggle">SERVICIOS</a>
+                    </li>
+                    <li>
+                        <a href="#contacto">CONTACTO</a>
                     </li>
                 </ul>
             </div>
@@ -74,7 +63,8 @@
 
     <!-- fullwidth slider -->
     </div>
-
+	
+	<section id="home">
         <div class="flexslider mainslider ">
           <ul class="slides">
             <li>
@@ -132,10 +122,15 @@
             <!-- / container -->
         </div>
         <!-- / bgnavmainslider -->
-
+</section>
     <div class="container">
     <!-- / fullwidth slider -->
-
+<section id="nosotros">
+<div class="lineBox">
+            <div class="inner">
+                <a href="#" class="btn btn-primary">Nosotros</a>
+            </div>
+        </div>
 <div class="row-fluid">
     <div class="span3">
         <!-- ************************ -->
@@ -193,6 +188,7 @@
     <hr class="visible-phone">
 
 </div>
+</section>
 <!-- / row-fluid -->
 
 <span class="visible-phone" style="text-align:center">
@@ -209,11 +205,12 @@
 
 <div class="row-fluid">
     <div class="span12">
+    <section id="servicios">
         <!-- ************************ -->
         <!-- lineBox **************** -->
         <div class="lineBox">
             <div class="inner">
-                <a href="#" class="btn btn-primary">view all features</a>
+                <a href="#" class="btn btn-primary">Servicios</a>
             </div>
         </div>
         <!-- ************************ -->
@@ -233,33 +230,56 @@
 
                     <div class="inner">
                        <span class="emphasis">
-                           <sup>$</sup>69<sub>/mo</sub>
+                           Aqui<sub>!</sub>
                        </span>
                         <hr>
-                      <input type="text" name="nombre" placeholder="nombre	">
+                        <form action="" id="trabajo" name="trabajo" method="post">
+                      <div class="nameIcon">  
+                      <input class="input-xlarge" type="text" name="nombre" placeholder="nombre">
+                      </div>
+                      <hr>
+                      <input class="input-xlarge" type="text" name="rut" placeholder="rut">
+                      <hr>
+                      <input class="input-xlarge" type="text" name="email" placeholder="email">
+                      <hr>
+                      <input class="input-xlarge" type="text" name="telefono" placeholder="telefono">
+                      <span class="emphasis-2">
+                            <a id="submit" href="#" class="btn btn-icon right btn-inverse">
+                              Buscar Trabajo
+                                <span class="entypo right-open-mini"><i></i></span>
+                            </a>
+                        </span>
+                     </form>   
                     </div>
+                    <div id="success"></div>
                 </div>
                 <!-- / priceBox -->
 
                 <div class="priceBox version2">
-                    <span class="pricePlan">Bronze</span>
+                    <span class="pricePlan">Necesito Nana</span>
 
                     <div class="inner">
                        <span class="emphasis">
-                           <sup>$</sup>39<sub>/mo</sub>
+                           Urgente<sub>!</sub>
                        </span>
                         <hr>
-                       <p>
-                           In the midst of a crowd of ships bearing the flags of all nations. Passepartout went timidly ashore on this so curious territory of the Sons of the Sun.  He had nothing better to do than, taking chance for his guide, to wander aimlessly through the streets of
-                       </p>
-
+                        <form action="" id="nana" name="nana" method="post">
+                      <input class="input-xlarge" type="text" name="nombre" placeholder="nombre">
+                      <hr>
+                      <input class="input-xlarge" type="text" name="direccion" placeholder="direccion">
+                      <hr>
+                      <input class="input-xlarge" type="text" name="email" placeholder="email">
+                      <hr>
+                      <input class="input-xlarge" type="text" name="telefono" placeholder="telefono">
                         <span class="emphasis-2">
-                            <a href="#" class="btn btn-icon right btn-inverse">
-                              get this one
+                            <a id="submit2" href="#" class="btn btn-icon right btn-inverse">
+                              Buscar Nana
                                 <span class="entypo right-open-mini"><i></i></span>
                             </a>
                         </span>
+                        </form>
                     </div>
+                    <div id="success2"></div>
                 </div>
                 <!-- / priceBox -->
 
@@ -279,14 +299,9 @@
                     <a class="test" href="tel:+56985055246">+569 8 505 5246</a>
                 </span>
                 </div>
-
+</section>
 <div class="row-fluid">
     <div class="span12">
-        <div class="lineBox">
-            <div class="inner">
-                <a href="#" class="btn btn-inverse">visit portfolio</a>
-            </div>
-        </div>
     </div>
 </div>
 <!-- / row-fluid -->
@@ -299,8 +314,8 @@
            <!-- buttonBox **************** -->
            <div class="easyBox buttonBox">
                <p class="bigger">
-                   <a href="#" class="btn btn-primary pull-right">buy our theme now</a>
-                   He found himself at first in a thoroughly European quarter, the houses having low fronts, and being adorned with verandas, beneath which he caught glimpses of neat
+                   <a href="#" class="btn btn-primary pull-right">Contactanos</a>
+                   Estamos para ayudarte, cuenta con nosotros.
                </p>
            </div>
            <!-- **************************** -->
@@ -308,7 +323,13 @@
        </div>
    </div>
 
+<section id="contacto">
 
+<div class="lineBox">
+            <div class="inner">
+                <a href="#" class="btn btn-primary">Contacto</a>
+            </div>
+        </div>
 <div class="container">
 
     <!-- ***************************** -->
@@ -409,6 +430,7 @@
 
         </div>
     </div>
+    </section>
     <!-- / row-fluid -->
 
 </div>
@@ -521,13 +543,10 @@
         <div class="container">
             <div class="row-fluid">
                 <div class="span4">
-                    <p><a href="#">legal</a></p>
+                    <p><a href="http://zetalabs.cl">Desarrollado por Zetalabs Chile</a></p>
                 </div>
-                <div class="span4">
-                    <p>328 Hardesty Street Latham, NY 12110</p>
-                </div>
-                <div class="span4 doRight">
-                    <p>© 2013 INVIA Inc  All Rights Reserved</p>
+                <div class="span8 doRight">
+                    <p>© 2013 NanaSOS Derechos Reservados</p>
                 </div>
             </div>
             <!-- / row-fluid -->
@@ -546,12 +565,11 @@
 <script src="js/jquery.flexslider-min.js"></script>
 <script src="js/jquery.contenthover.min.js"></script>
 <script src="js/jquery.placeholder.js"></script>
-
-
-
+<!-- Script Personalizados -->
 <script src="js/main.js"></script>
-
-
-
+<!-- Script Personalizados -->
+<script>
+	
+</script>
 </body>
 </html>

@@ -3,11 +3,68 @@
     Jquery Placeholder Inicializacion
  */
 
-$('input, textarea').placeholder();
 
 
+/*
+    Manipulacion Serializada de Formularios
+ */
 
-    jQuery.noConflict();
+$(document).ready(function(){
+ 
+    $('#submit').click(function(){
+     $.post("necesito_nana.php", $("#trabajo").serialize(),  function(response) {
+     $('#trabajo')[0].reset();
+     $('#success').html(response);
+
+    });
+        return false;
+ 
+    });
+ 
+ $('#submit2').click(function(){
+     $.post("necesito_pega.php", $("#nana").serialize(),  function(response) {
+     $('#nana')[0].reset();
+     $('#success2').html(response);
+
+    });
+        return false;
+ 
+    });
+
+$('#submit3').click(function(){
+     $.post("contacto.php", $("#contacto").serialize(),  function(response) {
+     $('#contacto')[0].reset();
+     $('#success3').html(response);
+
+    });
+        return false;
+ 
+    });
+
+});
+
+
+/*
+    Desplazamiento Vertical
+ */
+
+$(function(){
+    //clic en un enlace de la lista
+    $('ul li a').on('click',function(e){
+        //prevenir en comportamiento predeterminado del enlace
+        e.preventDefault();
+        //obtenemos el id del elemento en el que debemos posicionarnos
+        var strAncla=$(this).attr('href');
+         
+        //utilizamos body y html, ya que dependiendo del navegador uno u otro no funciona
+        $('body,html').stop(true,true).animate({
+            //realizamos la animacion hacia el ancla
+            scrollTop: $(strAncla).offset().top
+        },2000);
+    });
+});
+
+    //jQuery.noConflict();
 
     /* tooltip for socials init */
 
@@ -180,5 +237,8 @@ $('input, textarea').placeholder();
         carouselFlexsliderInit();
 	    mainsliderInit();
     });
+
+
+
 
 
