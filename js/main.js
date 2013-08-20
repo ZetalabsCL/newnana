@@ -3,7 +3,10 @@
     Jquery Placeholder Inicializacion
  */
 
-
+$(function() 
+{
+    $('input, textarea').placeholder();
+});
 
 /*
     Manipulacion Serializada de Formularios
