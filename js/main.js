@@ -16,7 +16,7 @@ $(document).ready(function(){
  
     $('#submit').click(function(){
      $.post("necesito_nana.php", $("#trabajo").serialize(),  function(response) {
-     $('#trabajo')[0].reset();
+     //$('#trabajo')[0].reset();
      $('#success').html(response);
 
     });
@@ -26,7 +26,7 @@ $(document).ready(function(){
  
  $('#submit2').click(function(){
      $.post("necesito_pega.php", $("#nana").serialize(),  function(response) {
-     $('#nana')[0].reset();
+     //$('#nana')[0].reset();
      $('#success2').html(response);
 
     });
