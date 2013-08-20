@@ -51,9 +51,21 @@ $('#submit3').click(function(){
     Desplazamiento Vertical
  */
 
-$('html, body').animate({
-    scrollTop: $("#contacto").offset().top
-}, 20000);
+// $('#contacto1').click(function () {
+//                 jQuery('body,html').animate({scrollTop: 0}, 6000);
+//                 return false;
+//             });
+
+
+function scrollToElement( target ) {
+    var topoffset = 30;
+    var speed = 1200;
+    var destination = jQuery( target ).offset().top - topoffset;
+    jQuery( 'html:not(:animated),body:not(:animated)' ).animate( { scrollTop: destination}, speed, function() {
+        window.location.hash = target;
+    });
+    return false;
+}
 
 
     //jQuery.noConflict();
@@ -206,6 +218,7 @@ $('html, body').animate({
             });
         }
     }
+
 
 
     jQuery(document).ready(function () {

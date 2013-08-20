@@ -29,16 +29,16 @@
             <div class="nav-collapse">
                 <ul class="nav pull-left">
                     <li>
-                        <a href="#home" class="dropdown-toggle" data-scroll-index="0">HOME</a>
+                        <a href="javascript:;" onclick="scrollToElement('#home')" class="dropdown-toggle">HOME</a>
                     </li>
                     <li>
-                    	<a href="#nosotros" class="dropdown-toggle" data-scroll-index="1">NOSOTROS</a>
+                    	<a href="javascript:;" onclick="scrollToElement('#nosotros')" class="dropdown-toggle">NOSOTROS</a>
                     </li>
                     <li>
-                    <a href="#servicios" class="dropdown-toggle" data-scroll-index="2">SERVICIOS</a>
+                    <a href="javascript:;" onclick="scrollToElement('#servicios')" class="dropdown-toggle">SERVICIOS</a>
                     </li>
                     <li>
-                        <a href="#contacto" data-scroll-index="3">CONTACTO</a>
+                        <a href="javascript:;" onclick="scrollToElement('#contacto')">CONTACTO</a>
                     </li>
                 </ul>
             </div>
@@ -115,7 +115,7 @@
 </section>
     <div class="container">
     <!-- / fullwidth slider -->
-<section id="nosotros" data-scroll-index='1'>
+<section id="nosotros">
 <div class="lineBox">
             <div class="inner">
                 <a href="#" class="btn btn-primary">Nosotros</a>
@@ -195,7 +195,7 @@
 
 <div class="row-fluid">
     <div class="span12">
-    <section id="servicios" data-scroll-index='2'>
+    <section id="servicios">
         <!-- ************************ -->
         <!-- lineBox **************** -->
         <div class="lineBox">
@@ -365,11 +365,11 @@
 
 </div>
 <!-- / contactMap -->
-<section id="contacto" data-scroll-index='3'>
+<section id="contacto1">
 
 <div class="lineBox">
             <div class="inner">
-                <a href="#" class="btn btn-primary">Contacto</a>
+                <a href="javascript:;" onclick="scrollToElement('#home')" class="btn btn-primary">Contacto</a>
             </div>
         </div>
 
@@ -568,16 +568,5 @@
 <!-- Script Personalizados -->
 <script src="js/main.js"></script>
 <!-- Script Personalizados -->
-<script>
-	$.scrollIt({
-  upKey: 38,             // key code to navigate to the next section
-  downKey: 40,           // key code to navigate to the previous section
-  easing: 'linear',      // the easing function for animation
-  scrollTime: 6000,       // how long (in ms) the animation takes
-  activeClass: 'active', // class given to the active nav element
-  onPageChange: null,    // function(pageIndex) that is called when page is changed
-  topOffset: 0           // offste (in px) for fixed top navigation
-});
-</script>
 </body>
 </html>
