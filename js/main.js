@@ -47,26 +47,26 @@ $('#submit3').click(function(){
 });
 
 
+
 /*
-    Desplazamiento Vertical
+    Scroll Local
  */
 
-// $('#contacto1').click(function () {
-//                 jQuery('body,html').animate({scrollTop: 0}, 6000);
-//                 return false;
-//             });
 
+$(document).ready(function(){
+    $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
 
-function scrollToElement( target ) {
-    var topoffset = 30;
-    var speed = 1200;
-    var destination = jQuery( target ).offset().top - topoffset;
-    jQuery( 'html:not(:animated),body:not(:animated)' ).animate( { scrollTop: destination}, speed, function() {
-        window.location.hash = target;
+        var target = this.hash,
+        $target = $(target);
+
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+        }, 900, 'swing', function () {
+            window.location.hash = target;
+        });
     });
-    return false;
-}
-
+});
 
     //jQuery.noConflict();
 
@@ -203,21 +203,21 @@ function scrollToElement( target ) {
 
 
     /* link smooth scroll to top */
-    function scrollToTop(i) {
-        if (i == 'show') {
-            if (jQuery(this).scrollTop() != 0) {
-                jQuery('#toTop').fadeIn();
-            } else {
-                jQuery('#toTop').fadeOut();
-            }
-        }
-        if (i == 'click') {
-            jQuery('#toTop').click(function () {
-                jQuery('body,html').animate({scrollTop: 0}, 600);
-                return false;
-            });
-        }
-    }
+    // function scrollToTop(i) {
+    //     if (i == 'show') {
+    //         if (jQuery(this).scrollTop() != 0) {
+    //             jQuery('#toTop').fadeIn();
+    //         } else {
+    //             jQuery('#toTop').fadeOut();
+    //         }
+    //     }
+    //     if (i == 'click') {
+    //         jQuery('#toTop').click(function () {
+    //             jQuery('body,html').animate({scrollTop: 0}, 600);
+    //             return false;
+    //         });
+    //     }
+    // }
 
 
 

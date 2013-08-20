@@ -29,16 +29,16 @@
             <div class="nav-collapse">
                 <ul class="nav pull-left">
                     <li>
-                        <a href="javascript:;" onclick="scrollToElement('#home')" class="dropdown-toggle">HOME</a>
+                        <a href="#home" class="dropdown-toggle home">HOME</a>
                     </li>
                     <li>
-                    	<a href="javascript:;" onclick="scrollToElement('#nosotros')" class="dropdown-toggle">NOSOTROS</a>
+                    	<a href="#nosotros" class="dropdown-toggle nosotros">NOSOTROS</a>
                     </li>
                     <li>
-                    <a href="javascript:;" onclick="scrollToElement('#servicios')" class="dropdown-toggle">SERVICIOS</a>
+                    <a href="#servicios" class="dropdown-toggle servicios">SERVICIOS</a>
                     </li>
                     <li>
-                        <a href="javascript:;" onclick="scrollToElement('#contacto')">CONTACTO</a>
+                        <a href="#contacto" class="contacto">CONTACTO</a>
                     </li>
                 </ul>
             </div>
@@ -55,12 +55,12 @@
 
 
 <!-- main container -->
-<div class="container">
+<div class="container" id="test">
 
     <!-- fullwidth slider -->
     </div>
 	
-	<section id="home" data-scroll-index='0'>
+	<section id="home" class="scroll">
         <div class="flexslider mainslider hidden-phone">
           <ul class="slides">
             <li>
@@ -103,7 +103,7 @@
 </section>
     <div class="container">
     <!-- / fullwidth slider -->
-<section id="nosotros">
+<section id="nosotros" class="scroll">
 <div class="lineBox">
             <div class="inner">
                 <a href="#" class="btn btn-primary">Nosotros</a>
@@ -183,7 +183,7 @@
 
 <div class="row-fluid">
     <div class="span12">
-    <section id="servicios">
+    <section id="servicios" class="scroll">
         <!-- ************************ -->
         <!-- lineBox **************** -->
         <div class="lineBox">
@@ -353,11 +353,11 @@
 
 </div>
 <!-- / contactMap -->
-<section id="contacto1">
+<section id="contacto1" class="scroll">
 
 <div class="lineBox">
             <div class="inner">
-                <a href="javascript:;" onclick="scrollToElement('#home')" class="btn btn-primary">Contacto</a>
+                <a href="#home" class="btn btn-primary">Contacto</a>
             </div>
         </div>
 
