@@ -192,4 +192,5 @@ body.boxed #boxedWrapper,
 	color: #000;
 	text-transform: uppercase;
 	font-weight: bolder;
+	padding:10px;
 }
