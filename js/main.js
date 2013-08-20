@@ -51,9 +51,8 @@ $('#submit3').click(function(){
 /*
     Scroll Local
  */
-
-
-$(document).ready(function(){
+    
+    $(document).ready(function(){
     $('a[href^="#"]').on('click',function (e) {
         e.preventDefault();
 
@@ -223,7 +222,6 @@ $(document).ready(function(){
 
     jQuery(document).ready(function () {
         overlayContent('init');
-         scrollToTop('click');
         accordionActive();
         portfolioSort();
         tooltipInit();
@@ -233,9 +231,7 @@ $(document).ready(function(){
          overlayContent('reload');
     });
 
-    jQuery(window).scroll(function () {
-         scrollToTop('show');
-    });
+        
 
     jQuery(window).load(function () {
 	     fadeFlexsliderInit();
