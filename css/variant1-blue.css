@@ -188,26 +188,8 @@ body.boxed #boxedWrapper,
 	padding: 10px 10px 10px 10px
 }
 
-::-webkit-input-placeholder {
-   color: #000;
-   font-weight: bolder;
-   text-transform: uppercase;
-}
-
-:-moz-placeholder { /* Firefox 18- */
-   color: #000;
-   font-weight: bolder;
-   text-transform: uppercase;  
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-   color: #000;
-   font-weight: bolder;
-   text-transform: uppercase;  
-}
-
-:-ms-input-placeholder {  
-   color: #000;
-   font-weight: bolder;
-   text-transform: uppercase;  
+.placeholder {
+	color: #000;
+	text-transform: uppercase;
+	font-weight: bolder;
 }
