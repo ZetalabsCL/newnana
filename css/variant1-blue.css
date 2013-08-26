@@ -52,6 +52,7 @@ a:hover, a:focus {
 }
 .btn-primary{
 	background: #0082BC;
+	font-size: 22px;
 }
 
 .btn-primary:hover{
@@ -91,7 +92,7 @@ a:hover, a:focus {
 }
 
 .priceBox.version2 .pricePlan{
-	background: #0082BC;
+	background: #dcdcdc;
 }
 
 .priceBox.version2.spec{
