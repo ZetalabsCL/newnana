@@ -8,21 +8,25 @@ a:hover, a:focus {
 
 .navbar-static-top .navbar-inner{
 	background: #0082BC;
+
 }
 
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus,
 .dropdown-submenu:hover > a{
 	color: #0082BC;
+
 }
 
 .dropdown-menu .active > a,
 .dropdown-menu .active > a:hover{
 	color: #0082BC;
+
 }
 
 .dropdown-submenu:hover > a:after{
 	border-left-color: #0082BC;
+	font-size: 26px;
 }
 
 .highlightBox{
