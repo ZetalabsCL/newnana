@@ -19,7 +19,10 @@ $asunto = 'Contacto desde FORMULARIO WEB DE NANASOS';
 
 if (filter_var($email, FILTER_VALIDATE_EMAIL)) { // this line checks that we have a valid email address
 mail($para, $asunto, $mensaje, $header); //This method sends the mail.
-echo '<div style="color:green;">Tu mensaje fue enviado correctamente. Pronto nos contactaremos contigo!!</div>'	; // success message
+echo '<div style="color:green;">
+Tu mensaje fue enviado correctamente. Pronto nos contactaremos contigo!!
+</div>
+'	; // success message
 }else{
 echo "Los datos del formulario estan incorrectos, revisalos y vuelve a intentarlo";
 }

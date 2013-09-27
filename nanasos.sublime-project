@@ -1,0 +1,24 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/reyz/Google Drive/MAMP/htdocs/newnana"
+		}
+	],
+	"settings": {
+    	"xdebug": 
+    	{
+            		"path_mapping": 
+            		{
+                "/Users/reyz/Google Drive/MAMP/newnana/" : "/Users/reyz/Google Drive/MAMP/newnana/"
+            },
+            "ide_key": "sublime.xdebug",
+            "url": "http://nanasos.dev:8888",
+            "port": 9000,
+            "close_on_stop": true,
+            "max_depth": 3,
+            "max_children": 32,
+            "debug": true
+        }
+    }
+}
