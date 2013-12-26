@@ -14,7 +14,7 @@ $mensaje = "Este mensaje fue enviado por " . $nombre . ", su rut o pasaporte es 
 $mensaje .= "Su e-mail es: " . $email . " \r\n";
 $mensaje .= "Enviado el " . date("d/m/y \a \l\a\s H:i:s ");
 
-$para = 'jreyes@nanasos.cl';
+$para = 'reinaldo@zetalabs.cl';
 $asunto = 'Contacto desde NANASOS NECESITO TRABAJO URGENTE';
 
 if (filter_var($email, FILTER_VALIDATE_EMAIL)) { // this line checks that we have a valid email address
